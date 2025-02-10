@@ -16,6 +16,18 @@
             padding: 15px;
             text-align: center;
         }
+        .banner {
+            width: 100%;
+            height: 300px;
+            background: url('banner.jpg') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
         nav {
             display: flex;
             justify-content: space-between;
@@ -76,6 +88,8 @@
             </ul>
         </nav>
     </header>
+    
+    <div class="banner">Добро пожаловать в нашу онлайн-школу!</div>
     
     <section class="hero">
         <h1>Изучайте английский легко и эффективно</h1>
