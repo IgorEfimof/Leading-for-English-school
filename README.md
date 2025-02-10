@@ -18,13 +18,13 @@
         }
         .banner {
             width: 100%;
-            height: 300px;
+            height: 150px;
             background: url('banner.jpg') no-repeat center center/cover;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
-            font-size: 2em;
+            font-size: 1.5em;
             font-weight: bold;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
