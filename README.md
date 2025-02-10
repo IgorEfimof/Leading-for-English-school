@@ -13,33 +13,35 @@
         header {
             background: #333;
             color: #fff;
-            padding: 15px;
+            padding: 10px;
             text-align: center;
         }
         .banner {
             width: 100%;
-            height: 150px;
+            height: 100px;
             background: url('banner.jpg') no-repeat center center/cover;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
-            font-size: 1.5em;
+            font-size: 1.2em;
             font-weight: bold;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
         nav {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             padding: 10px;
         }
         .nav-links {
             list-style: none;
             display: flex;
+            gap: 20px;
+            padding: 0;
         }
         .nav-links li {
-            margin: 0 10px;
+            margin: 0;
         }
         .nav-links a {
             color: white;
@@ -68,18 +70,11 @@
             border: none;
             cursor: pointer;
         }
-        @media (max-width: 768px) {
-            .nav-links {
-                flex-direction: column;
-                align-items: center;
-            }
-        }
     </style>
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">English School</div>
             <ul class="nav-links">
                 <li><a href="#about">О нас</a></li>
                 <li><a href="#courses">Курсы</a></li>
